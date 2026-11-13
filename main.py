@@ -1,4 +1,4 @@
-"""Run Review: a small Drafter running log and pace calculator."""
+"""Run Review: running log and pace calculator."""
 
 from dataclasses import dataclass
 from drafter import (
@@ -333,7 +333,7 @@ def help_page(state: State) -> Page:
 
 
 
-# This standard Python guard starts the app when run directly, but prevents
+# \
 # starting a web server when tests import the functions from this file.
 if __name__ == "__main__":
     start_server(initial_state(), site_title="Run Review", theme="skeleton")
