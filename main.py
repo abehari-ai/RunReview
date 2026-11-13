@@ -331,13 +331,7 @@ def help_page(state: State) -> Page:
     ] + navigation())
 
 
-set_site_information(
-    author="Aarnav Behari",
-    description="A simple running log with pace and halfway analysis.",
-    sources=["https://drafter-edu.github.io/drafter/", "AI assistance: see AI_CONVERSATION.md"],
-    planning="See PLANNING.md in this repository.",
-    links=["https://drafter-edu.github.io/drafter/"],
-)
+
 
 # This standard Python guard starts the app when run directly, but prevents
 # starting a web server when tests import the functions from this file.
